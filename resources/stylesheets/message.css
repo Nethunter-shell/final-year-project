@@ -1,0 +1,19 @@
+/* general message format */
+.message{
+    height: auto;
+    width: 300px;
+    display: flex;
+    gap: 1rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+.error-message{
+    background: rgb(161, 64, 64);
+    color: black;
+}
+
+.success-message{
+    background: rgb(25, 135, 15);
+    color: #fff;
+}

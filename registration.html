@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./resources/cms-favicon.png">
+    <link rel="stylesheet" href="./resources/stylesheets/registration.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Cms | Registration</title>
+</head>
+<body>
+    <div class="parent-container">
+        <div class="data-header-component">
+            <div class="data-header-content">
+                <div class="data-header-logo">
+                    <img src="./resources/cms-logo.png" alt="header-logo">
+                </div>
+                <div class="header-nav-items">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Dashboard</a></li>
+                </div>
+                <button>
+                    Login 
+                </button>
+            </div>
+        </div>
+        <div class="data-reg-form-layout-container">
+            <div class="data-reg-form-layout-component">
+                <h3>Create New Account</h3>
+                <div class="data-main-form-component">
+                    <div class="text-input short-input">
+                        <div class="input-field">
+                            <input type="text" placeholder="First Name">
+                            <span class="material-symbols-outlined">
+                                person
+                            </span>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Last Name">
+                            <span class="material-symbols-outlined">
+                                person
+                            </span>
+                        </div>
+                    </div>
+                    <div class="username-box">
+                        <div class="input-field">
+                            <input type="text" placeholder="Username">
+                            <span class="material-symbols-outlined">
+                                person
+                            </span>
+                        </div>
+                        <small class="helper-text">Username cannot contain space or special character</small>
+                    </div>
+                    
+                    <div class="password-box">
+                        <div class="input-field">
+                            <input type="text" placeholder="password">
+                            <span class="material-symbols-outlined">
+                                lock
+                            </span>
+                        </div>
+                        <div class="validation-section">
+                            <div class="phrase">
+                                <span class="material-symbols-outlined">
+                                    check_circle
+                                </span>
+                                <p>Password must contain Uppercase Letter</p>
+                            </div>
+                            <div class="phrase">
+                                <span class="material-symbols-outlined">
+                                    check_circle
+                                </span>
+                                <p>Password must contain Lowercase Letter</p>
+                            </div>
+                            <div class="phrase">
+                                <span class="material-symbols-outlined">
+                                    check_circle
+                                </span>
+                                <p>Password must contain special character or Symbol</p>
+                            </div>
+                            <div class="phrase">
+                                <span class="material-symbols-outlined">
+                                    check_circle
+                                </span>
+                                <p>Password must contain Digits or Number</p>
+                            </div>
+                            <div class="phrase">
+                                <span class="material-symbols-outlined">
+                                    check_circle
+                                </span>
+                                <p>Password must be at least 8 characters long</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-input short-input unbalanced">
+                        <div class="input-field input-1">
+                            <span class="material-symbols-outlined">
+                                home
+                            </span>
+                            <input type="text" name="" id="" placeholder="Department">
+                        </div>
+                        <div class="input-field input-2">
+                            <span class="material-symbols-outlined">
+                                tag
+                            </span>
+                            <input type="text" name="" id="" placeholder="Level">
+                        </div>
+                    </div>
+                    
+                    <div class="input-field">
+                        <span class="material-symbols-outlined">
+                            tag
+                        </span>
+                        <input type="text" name="" id="" placeholder="Matric Number">
+                    </div>
+                    <div class="gender-box">
+                        <h5>Gender</h5>
+                        <div class="gender-selection">
+                            <div class="select-box">
+                                <input type="radio" name="gender" id="">
+                                <p>Male</p>
+                            </div>
+                            <div class="select-box">
+                                <input type="radio" name="gender" id="">
+                                <p>Female</p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <button>
+                        continue
+                    </button>
+                    <p class="sign-in-option">
+                        Already Have an Account ? <a href="">Sign in</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
